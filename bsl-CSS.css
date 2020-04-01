@@ -125,6 +125,20 @@ li{
     padding: 15px 15px;
 }
 
+/* History Section */
+/* Sets the image to the correct place */
+#History img{
+    float: right;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-left: 20px;
+    padding: 20px 20px 25px 20px;
+}
+
+
 /* Linguistics Section */
 /* Setting styles for the map of a world division to create a border surrounding it  */
 #map{
@@ -138,7 +152,9 @@ li{
     width: 45%;
 }
 
-
+#map img{
+    float:left;
+}
 
 #map p{
     position: relative;
@@ -161,7 +177,7 @@ li{
     font-weight: bold;
 }
 
-#linguistics:after{
+#Linguistics:after{
     content: "";
     display: table;
     clear: both;
