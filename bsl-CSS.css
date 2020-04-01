@@ -1,0 +1,173 @@
+/* Background Colour */
+/* Set to hex colour light grey */
+html {
+    background-color: #d3d3d3;
+}
+
+/* Body Page */
+/* Sets the body to white background with the dimensions of 510 and 960 (Width) pixels as requested */
+body {
+    background-color: #ffffff;
+    min-width: 510px;
+    max-width: 960;
+}
+
+/* Header 1 */
+/* Setting the colour and font size for header 1 with the addition of the sign language logo in the top right corner */
+/* Used font family as a fallback system, ensuring maximum compatability */
+h1{
+    color: #195c91;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "Sans-serif";
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(""); /* need to sort out this for the okay sign languag pic top right */
+    background-repeat: no-repeat;
+    background-position: 95% 98%;
+    border-bottom: 10px solid #196c91;
+}
+
+/* Header 2 */
+/* Setting the colour and font size for header 2 */
+h2{
+    color: #195c91;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "Sans-serif";
+    padding-left: 10px;
+    margin-bottom: 0;
+    padding-bottom: px;
+}
+
+/* Header 3 */
+/* Setting the colour and font size for header 3 */
+h3{
+    color: #195c91;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "Sans-serif";
+    margin-left: 5px;
+}
+
+/* Setting the font size for the paragraphs */
+p{
+    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+    padding-left: 10px;
+}
+
+/* Thematic break */
+/* Styling the hr lines with colour and height */
+hr{
+    color: #195c91;
+    height: 10px;
+    background-color: #195c91;
+    width: 100%;
+    position: relative;
+    overflow: visible;
+}
+
+/* Lists */
+/* Setting fonts for all list */
+li{
+    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+}
+
+/* Contents bar */
+/* Sets the contents bar to the colour, the full width and positioning for the navigation of the webpage. */
+#contents{
+    background-color: #195c91;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: right;
+}
+
+/* Contents drop down menu */
+/* Setting the contents drop down menu to the correct position and colour*/
+#contents ul li ul{
+    position: absolute;
+    background-color: #195c91;
+    display: none;
+    width: 30%;
+    right: 0;
+    padding: 0;
+}
+
+/* Drop down contents appear when user moves over them */
+#contents ul li:hover ul{
+    display: block;
+}
+
+/* Sets the drop down contents to the center and arranged as a block */
+#contents ul li ul li{
+    text-align: center;
+    display: block;
+}
+
+/* The text changes to a light blue colour when user is moves over the contents in the drop down list */
+#contents ul li a:hover{
+    color: #84c3f7;
+}
+
+/* Lists are set to the right*/
+#contents ul{
+    float: right;
+}
+
+/* Lists are set to displaying vertically */
+#contents ul li{
+    display: inline;
+}
+
+/* Setting the drop down list link colours, size and distance. */
+#contents ul a{
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none; /* removes the hyperlink blue background to none */
+    padding: 15px 15px;
+}
+
+/* Linguistics Section */
+/* Setting styles for the map of a world division to create a border surrounding it  */
+#map{
+    border: 15px;
+    border: 3px #195c91 double;
+    width: 50%;
+    margin-left: 20px;
+    font-size: 12px;
+    display: inline-block;
+    padding: 15px;
+    width: 45%;
+}
+
+
+
+#map p{
+    position: relative;
+    margin-top: 2px;
+    left: 10px;
+}
+
+.map img{
+    width: 97%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.figurelegend{
+    text-align: center;
+    border-bottom: 2px solid #195c91;
+}
+
+.legend{
+    font-weight: bold;
+}
+
+#linguistics:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#paragraph{
+    float: left;
+    width: 45%;
+}
