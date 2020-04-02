@@ -146,24 +146,30 @@ li{
     border: 3px #195c91 double;
     width: 45%;
     font-size: 12px;
-    margin-left: 15px;
-    display: inline-block;
+    margin-left: 20px;
+    display: block;
+    padding: 15px;
+    float:left;
+    width: 45%;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
-#map img{
+ #map img{
     float: left;
 }
 
 #map p{
-    position: realtive;
+    position: relative;
     margin-top: 2px;
     left: 10px;
 }
 
 .map img{
-    width: 97%;
     margin-left: 0px;
     padding-left: 0px;
+    width: 97%;
+
 }
 
 .figurelegend{
@@ -185,7 +191,7 @@ clear: both;
 #para{
     float: left;
     width: 45%;
-}
+} */
 
 
 /* British sign language section */
