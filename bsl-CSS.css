@@ -144,20 +144,18 @@ li{
 #map{
     border: 15px;
     border: 3px #195c91 double;
-    width: 50%;
-    margin-left: 20px;
-    font-size: 12px;
-    display: inline-block;
-    padding: 15px;
     width: 45%;
+    font-size: 12px;
+    margin-left: 15px;
+    display: inline-block;
 }
 
 #map img{
-    float:left;
+    float: left;
 }
 
 #map p{
-    position: relative;
+    position: realtive;
     margin-top: 2px;
     left: 10px;
 }
@@ -175,18 +173,20 @@ li{
 
 .legend{
     font-weight: bold;
+    font-variant: small-caps;
 }
 
-#Linguistics:after{
-    content: "";
-    display: table;
-    clear: both;
+#linguistics:after{
+content: "";
+display: table;
+clear: both;
 }
 
-#paragraph{
+#para{
     float: left;
     width: 45%;
 }
+
 
 /* British sign language section */
 /* Sets the position of the video to the top of the frame */
@@ -213,4 +213,83 @@ li{
 #video p{
     font-size: 12px;
     text-align: center;
+}
+
+/*  */
+#letters p{
+    padding: 3px;
+    background-color: #195c91;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: 12px;
+    border-left: 1px#808080;
+    border-right: 1px#808080;
+    border-top: 1px#808080;
+    
+}
+
+
+/* Styling the letter sign images into the correct format and position */
+#letters img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: 10px;
+    border-left: 1px#808080;
+    border-right: 1px#808080;
+    border-top: 1px#808080;
+}
+
+/*  */
+#numbers p{
+    padding: 3px;
+    background-color: #195c91;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: 12px;
+    border-left: 1px#808080;
+    border-right: 1px#808080;
+    border-top: 1px#808080;
+    
+}
+
+/* Styling the number sign images into the correct format and position */
+#numbers img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: 10px;
+    border-left: 1px#808080;
+    border-right: 1px#808080;
+    border-top: 1px#808080;
+}
+
+/*  */
+.signs{
+    margin: 10px;
+    display: inline-block;
+    max-width: 960px;
+}
+
+/*  */
+.signs p span{
+font-size: 10px;
+}
+
+/*  */
+.red{
+    color: #ff0000;
+    display: inline;
+}
+
+/*  */
+#wikipedia{
+    font-size: 12px;
+    text-align: right;
+    padding-bottom: 5px;
+    padding-right: 10px; 
 }
