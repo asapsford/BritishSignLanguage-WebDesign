@@ -21,26 +21,80 @@
 <h2>A Simple Quiz</h2>
 
 <fieldset>
-    
+    <legend>About You </legend>
+    <p id="username">
+        What is your name? </br>
+        <input type="text" name="username" size="40" />
+    </p>
 </fieldset>
 
+<fieldset>
+    <legend> The questions</legend>
 
+    <ol>
+        <li>
+            <p id="question1">What does this message spell?</p>
+            <div>
+                <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/H.png" alt="A British Sign Language sign" height="100" width="100"/>
+                <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/E.png" alt="A British Sign Language sign" height="100" width="100"/> 
+                <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/L.png" alt="A British Sign Language sign" height="100" width="100"/> 
+                <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/L.png" alt="A British Sign Language sign" height="100" width="100"/> 
+                <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/O.png" alt="A British Sign Language sign" height="100" width="100"/> 
+                <br />
+                <select name="drop_down">
+                    <option value="Q">Choose one from the following</option>
+                    <option value="a">Happy</option>
+                    <option value="b">Hoppy</option>
+                    <option value="c">Hello</option>
+                    <option value="d">Cello</option>
+                </select> 
+            </div>
+        </li>
+   
+        
+        <li>
+            <p id="question2">Which TWO of the following statements are TRUE?</p>
+            <div>
+                <input type="checkbox" name="question2" id="q2a"/><label for="q2a">a) Another word for fingerspelling is <b>dactylogy</b></label><br />
+                <input type="checkbox" name="question2" id="q2b"/><label for="q2b">b) The first known school for the deaf was founded in 1670 </label><br />
+                <input type="checkbox" name="question2" id="q2c"/><label for="q2c">c) Sign languages arer also used by hearing individuals</label><br />
+                <input type="checkbox" name="question2" id="q2d"/><label for="q2d">d) There are only 142 sign languages that exist worldwide</label>
+            </div>
+        </li>
 
+        <li>
+            <p id="Q3">Which of these images correctly shows the sign for the letter I (India)?</p>
+            <div>
+                <input type="radio" name="question3" id="q3a" value="a"/> <label for="Q3a">a) <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/O.png" height="100" width="100" alt="A British Sign Language sign"/></label>
+                <input type="radio" name="question3" id="q3b" value="b"/> <label for="Q3b">a) <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/I.png" height="100" width="100" alt="A British Sign Language sign"/></label>
+                <input type="radio" name="question3" id="q3c" value="c"/> <label for="Q3c">a) <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/A.png" height="100" width="100" alt="A British Sign Language sign"/></label>
+                <input type="radio" name="question3" id="q3d" value="d"/> <label for="Q3d">a) <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/U.png" height="100" width="100" alt="A British Sign Language sign"/></label>
+            </div>
+        </li>
 
+        <li>
+            <p id="question4">BANZL is the acronym for which sign language family?</p>
+            <div>
+                <input type="text" name="question4" size="40" />
+            </div>
+        </li>
+   </ol>
+   
+   <input type="hidden" name="userScore" />
+   </fieldset>
 
- 
+   <fieldset>
+       <legend>Submit your answers</legend>
+    <div>
+        <input type="submit" value="Submit" /> or <input type="reset" value="Reset" />
+    </div>
+   </fieldset>
+</form>
+</div>
+
+<div id="help">
+    <p>Answers can be found at <a href="https://en.wikipedia.org/wiki/Sign_language">Wikipedia</a></p>
+</div>
 </div>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
