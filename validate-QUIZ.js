@@ -1,6 +1,6 @@
 
 function validate() {
-  
+ 
 var userName = document.forms[0].username.value;
 var usernameError = "Please enter a correct syntax name \n";
 var question1 = document.forms[0].Question1.value;
@@ -8,9 +8,9 @@ var score = 0;
 
 var error=[];
 var question1Error = "Please answer the first question \n";
-var question2Error = "The answer requires 2 boxes to be checked"
-var question3Error= "Please answer the third question \n"
-var quesiton4Error= "Please answer the fourth question \n"
+var question2Error = "The answer requires 2 boxes to be checked";
+var question3Error= "Please answer the third question \n";
+var quesiton4Error= "Please answer the fourth question \n";
 
 var question2a = document.getElementById("q2a").checked;
 var question2b = document.getElementById("q2b").checked;
@@ -20,7 +20,7 @@ var question2Answer = 0;
 
 var question3 = document.forms[0].Question3.value;
 
-var question4 = doocument.forms[0].Question4.value;
+var question4 = document.forms[0].Question4.value;
 var question4Answer = "british, australian & new zealand sign language";
 
 error.push(generic);
@@ -34,9 +34,9 @@ if(userName == "" || /^\s*$/.test(userName)){
 /* Question 1*/
 /* Answer is correct then increment the score by 1 and if left null then the user is provided with an error */
 if(question1 == "c"){
-    score++
+    score++;
 }
-else if (q1 == ""){
+else if (question1 == ""){
 error.push(question1Error);
 document.getElementById("Question1").style.backgroundColor = "yellow";
 }

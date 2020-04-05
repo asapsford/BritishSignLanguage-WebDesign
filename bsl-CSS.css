@@ -54,7 +54,6 @@ p{
 /* Thematic break */
 /* Styling the hr lines with colour and height */
 hr{
-    color: #195c91 !important;
     height: 10px;
     background-color: #195c91 !important;
     width: 100%;

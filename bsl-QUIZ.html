@@ -16,17 +16,16 @@
 
  <div id= "quiz">
 
-<form onsubmit="return validate();" method="POST" action="/Users/alexsapsford/Developer/BritishSignLanguage-WebDesign/formscript.php">
+<form action="" method="post" onsubmit="return validate();">
 
 <h2>A Simple Quiz</h2>
 
 <fieldset>
     <legend>About You </legend>
     <p id="username">
-        What is your name? </br>
-    </br>
+        What is your name?</p> 
         <input type="text" name="username" size="40" />
-    </p>
+
 </fieldset>
 
 <fieldset>
@@ -66,10 +65,10 @@
         <li>
             <p id="Question3">Which of these images correctly shows the sign for the letter I (India)?</p>
             <div>
-                <input type="radio" name="question3" id="q3a" value="a"/> <label for="Q3a">a) <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/O.png" height="100" width="100" alt="A British Sign Language sign"/></label>
-                <input type="radio" name="question3" id="q3b" value="b"/> <label for="Q3b">b) <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/I.png" height="100" width="100" alt="A British Sign Language sign"/></label>
-                <input type="radio" name="question3" id="q3c" value="c"/> <label for="Q3c">c) <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/A.png" height="100" width="100" alt="A British Sign Language sign"/></label>
-                <input type="radio" name="question3" id="q3d" value="d"/> <label for="Q3d">d) <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/U.png" height="100" width="100" alt="A British Sign Language sign"/></label>
+                <input type="radio" name="question3" id="q3a" value="a"/> <label for="q3a">a) <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/O.png" height="100" width="100" alt="A British Sign Language sign"/></label>
+                <input type="radio" name="question3" id="q3b" value="b"/> <label for="q3b">b) <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/I.png" height="100" width="100" alt="A British Sign Language sign"/></label>
+                <input type="radio" name="question3" id="q3c" value="c"/> <label for="q3c">c) <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/A.png" height="100" width="100" alt="A British Sign Language sign"/></label>
+                <input type="radio" name="question3" id="q3d" value="d"/> <label for="q3d">d) <img src="http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/letters/U.png" height="100" width="100" alt="A British Sign Language sign"/></label>
             </div>
         </li>
 
@@ -91,7 +90,7 @@
     </div>
    </fieldset>
 </form>
-</div>
+
 
 <div id="help">
     <p>Answers can be found at <a href="https://en.wikipedia.org/wiki/Sign_language">Wikipedia</a></p>
