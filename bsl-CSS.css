@@ -34,7 +34,7 @@ h2{
     font-family: "Lucida Sans Unicode", "Lucida Grande", "Sans-serif";
     padding-left: 10px;
     margin-bottom: 0;
-    padding-bottom: 0;
+
 }
 
 /* Header 3 */
@@ -42,7 +42,7 @@ h2{
 h3{
     color: #195c91;
     font-family: "Lucida Sans Unicode", "Lucida Grande", "Sans-serif";
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 /* Setting the font size for the paragraphs */
@@ -58,7 +58,6 @@ hr{
     background-color: #195c91 !important;
     width: 100%;
     position: relative;
-    overflow: visible;
 }
 
 /* Lists */
@@ -68,7 +67,7 @@ li{
 }
 
 /* Contents bar */
-/* Sets the contents bar to the colour, the full width and positioning for the navigation of the webpage. */
+/* Sets the contents bar to the colour, the full width and positioning for the navigation of the webpage */
 #contents{
     background-color: #195c91;
     width: 100%;
@@ -80,7 +79,7 @@ li{
 }
 
 /* Contents drop down menu */
-/* Setting the contents drop down menu to the correct position and colour*/
+/* Setting the contents drop down menu to the correct position and colour */
 #contents ul li ul{
     position: absolute;
     background-color: #195c91;
@@ -128,13 +127,10 @@ li{
 /* Sets the image to the correct place */
 #History img{
     float: right;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
     margin-left: 20px;
     margin-right: 10px;
     border-left: 20px;
-    padding: 20px 20px 25px 20px;
+    padding: 20px;
 }
 
 
@@ -143,75 +139,68 @@ li{
 #map{
     border: 15px;
     border: 3px #195c91 double;
-    width: 45%;
+    width: 50%;
+    padding: 10px;
     font-size: 12px;
     margin-left: 20px;
-    display: block;
-    padding: 15px;
     float:left;
-    width: 45%;
+    width: 50%;
+    display: block;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-
+/* Sets the colour block images to the left with the map */
  #map img{
     float: left;
 }
 
+/* Sets the paragraph next to the map */
+#para{
+    float: left;
+    width: 40%;
+} 
+
+/* Sets the text in the map section */
 #map p{
     position: relative;
-    margin-top: 2px;
-    left: 10px;
+    margin-top: 5px;
+    left: 5px;
 }
 
-.map img{
-    margin-left: 0px;
-    padding-left: 0px;
-    width: 97%;
-
-}
-
+/* Sets the figure legend under the map and adds a line border beneath it to separate it*/
 .figurelegend{
     text-align: center;
     border-bottom: 2px solid #195c91;
 }
 
+/* setting the width of the map image */
+.map img{
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 97%;
+}
+
+/* Sets the legend title to small caps and bold */
 .legend{
     font-weight: bold;
     font-variant: small-caps;
 }
 
-#linguistics:after{
-content: "";
-display: table;
-clear: both;
-}
-
-#para{
-    float: left;
-    width: 45%;
-} 
-
-
 /* British sign language section */
 /* Sets the position of the video to the top of the frame */
 #video{
     float: right;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-    padding-right: 0px;
     margin-left: 5px;
     margin-right: 10px;
-    padding: 10px 10px;
+    padding: 10px;
 }
 
 /* Positions the video into the correct position */
-#video iframe{
+#video object{
     margin-left: 20px;
     margin-right: 15px;
-    margin-top: 8px;
-    position: relative; left: 1%;
+    margin-top: 10px;
+    position: relative;
 }
 
 /* Styling the figure legend of the video */
@@ -220,7 +209,7 @@ clear: both;
     text-align: center;
 }
 
-/*  */
+/* Styling the letter paragraphs */
 #letters p{
     padding: 3px;
     background-color: #195c91;
@@ -229,12 +218,10 @@ clear: both;
     margin-left: 10px;
     margin-top: 0px;
     font-size: 12px;
-    border-left: 1px#808080;
-    border-right: 1px#808080;
-    border-top: 1px#808080;
-    
+    border-left: 1px solid black; 
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
 }
-
 
 /* Styling the letter sign images into the correct format and position */
 #letters img{
@@ -242,12 +229,12 @@ clear: both;
     width: 100px;
     display: block;
     margin-left: 10px;
-    border-left: 1px#808080;
-    border-right: 1px#808080;
-    border-top: 1px#808080;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
 }
 
-/*  */
+/* Styling the numbers paragraph */  
 #numbers p{
     padding: 3px;
     background-color: #195c91;
@@ -256,9 +243,9 @@ clear: both;
     margin-left: 10px;
     margin-top: 0px;
     font-size: 12px;
-    border-left: 1px#808080;
-    border-right: 1px#808080;
-    border-top: 1px#808080;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
     
 }
 
@@ -268,30 +255,30 @@ clear: both;
     width: 100px;
     display: block;
     margin-left: 10px;
-    border-left: 1px#808080;
-    border-right: 1px#808080;
-    border-top: 1px#808080;
-}
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+} 
 
-/*  */
-.signs{
-    margin: 10px;
-    display: inline-block;
-    max-width: 960px;
-}
-
-/*  */
-.signs p span{
-font-size: 10px;
-}
-
-/*  */
+/* Setting the header 'numbers' and 'letters' to red  */
 .red{
     color: #ff0000;
     display: inline;
 }
 
-/*  */
+/* Sets the images in a box */
+.signs{
+    margin: 10px;
+    max-width: 960px;
+    display: inline-block;
+}
+
+/* Setting the font size for the images within the boxes */
+.signs p span{
+font-size: 10px;
+}
+
+/* Setting the link to the right */
 #wikipedia{
     font-size: 12px;
     text-align: right;
