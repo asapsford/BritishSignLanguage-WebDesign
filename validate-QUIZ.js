@@ -23,7 +23,6 @@ var question3 = document.forms[0].Question3.value;
 var question4 = document.forms[0].Question4.value;
 var question4Answer = "british, australian & new zealand sign language";
 
-error.push(generic);
 
 /* Error check for null username */
 if(userName == "" || /^\s*$/.test(userName)){
