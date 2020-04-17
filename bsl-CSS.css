@@ -21,10 +21,11 @@ h1{
     padding-left: 10px;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-image: url(""); /* need to sort out this for the okay sign languag pic top right */
+    background-image: url("http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/css/sign_language.png"); /* need to sort out this for the okay sign languag pic top right */
     background-repeat: no-repeat;
     background-position: 95% 98%;
     border-bottom: 10px solid #196c91;
+    display: flex;
 }
 
 /* Header 2 */
@@ -127,6 +128,7 @@ li{
 /* Sets the image to the correct place */
 #History img{
     float: right;
+    background-image: url("http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/css/420x370-box.png");
     margin-left: 20px;
     margin-right: 10px;
     border-left: 20px;
@@ -190,6 +192,7 @@ li{
 /* Sets the position of the video to the top of the frame */
 #video{
     float: right;
+    background-image: url("http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/css/460x320-box.png");
     margin-left: 5px;
     margin-right: 10px;
     padding: 10px;
@@ -280,7 +283,7 @@ font-size: 10px;
 
 /* Setting the link to the right */
 #wikipedia{
-    font-size: 12px;
+    font-size: 10px;
     text-align: right;
     padding-bottom: 5px;
     padding-right: 10px; 
