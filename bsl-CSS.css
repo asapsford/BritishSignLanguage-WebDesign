@@ -130,14 +130,16 @@ li{
 }
 
 /* History Section */
-/* Sets the image to the correct place */
+/* Sets the box image to surround the image of the website  */
 #History img{
     float: right;
     background-image: url("http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/css/420x370-box.png");
-    margin-left: 20px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    margin-left: 20px; 
     margin-right: 10px;
-    border-left: 20px;
     padding: 20px;
+
 }
 
 
@@ -147,14 +149,13 @@ li{
     border: 15px;
     border: 3px #195c91 double;
     width: 50%;
-    padding: 10px;
-    font-size: 12px;
+    margin-bottom: 10px;
     margin-left: 20px;
+    padding: 10px;
+    font-size: 14px;
     float:left;
     width: 50%;
     display: block;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
 /* Sets the colour block images to the left with the map */
  #map img{
@@ -176,15 +177,15 @@ li{
 
 /* Sets the figure legend under the map and adds a line border beneath it to separate it*/
 .figurelegend{
-    text-align: center;
-    border-bottom: 2px solid #195c91;
+   float: center;
+   text-align: center;
+    border-bottom: 1px solid #195c91;
 }
 
 /* setting the width of the map image */
 .map img{
-    margin-left: 0px;
-    padding-left: 0px;
-    width: 97%;
+    padding: 0px;
+    width: 100%;
 }
 
 /* Sets the legend title to small caps and bold */
@@ -214,7 +215,7 @@ li{
 
 /* Styling the figure legend of the video */
 #video p{
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -226,7 +227,7 @@ li{
     text-align: center;
     margin-left: 10px;
     margin-top: 0px;
-    font-size: 12px;
+    font-size: 14px;
     border-left: 1px solid black; 
     border-right: 1px solid black;
     border-bottom: 1px solid black;
@@ -251,7 +252,7 @@ li{
     text-align: center;
     margin-left: 10px;
     margin-top: 0px;
-    font-size: 12px;
+    font-size: 14px;
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
@@ -273,6 +274,7 @@ li{
 .red{
     color: #ff0000;
     display: inline;
+    text-emphasis: none;
 }
 
 /* Sets the images in a box */
@@ -284,12 +286,12 @@ li{
 
 /* Setting the font size for the images within the boxes */
 .signs p span{
-font-size: 10px;
+font-size: 12px;
 }
 
 /* Setting the link to the right */
 #wikipedia{
-    font-size: 10px;
+    font-size: 12px;
     text-align: right;
     padding-bottom: 5px;
     padding-right: 10px; 
