@@ -10,6 +10,8 @@ body {
     background-color: #ffffff;
     min-width: 510px;
     max-width: 960px;
+    margin: auto;
+    position: relative;
 }
 
 /* Header 1 */
@@ -18,14 +20,15 @@ body {
 h1{
     color: #195c91;
     font-family: "Lucida Sans Unicode", "Lucida Grande", "Sans-serif";
-    padding-left: 10px;
-    padding-top: 40px;
+    padding-left: 10px; /* all headers have are 10px padding left */
+    padding-top: 60px;
     padding-bottom: 40px;
-    background-image: url("http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/css/sign_language.png"); /* need to sort out this for the okay sign languag pic top right */
+    background-image: url("http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/css/sign_language.png");
     background-repeat: no-repeat;
-    background-position: 95% 98%;
+    background-position: 97% 95%;
     border-bottom: 10px solid #196c91;
     display: flex;
+    justify-content: left;
 }
 
 /* Header 2 */
@@ -34,8 +37,7 @@ h2{
     color: #195c91;
     font-family: "Lucida Sans Unicode", "Lucida Grande", "Sans-serif";
     padding-left: 10px;
-    margin-bottom: 0;
-
+    padding-bottom: 10px;
 }
 
 /* Header 3 */
@@ -48,15 +50,15 @@ h3{
 
 /* Setting the font size for the paragraphs */
 p{
-    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
-    padding-left: 10px;
+   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+    padding-left: 10px; 
 }
 
 /* Thematic break */
 /* Styling the hr lines with colour and height */
 hr{
     height: 10px;
-    background-color: #195c91 !important;
+    background-color: #195c91;
     width: 100%;
     position: relative;
 }
@@ -79,15 +81,15 @@ li{
     float: right;
 }
 
-/* Contents drop down menu */
+/* Contents drop down menu */ 
 /* Setting the contents drop down menu to the correct position and colour */
+/* Reference: https://www.w3schools.com/howto/howto_css_dropdown.asp */ 
 #contents ul li ul{
     position: absolute;
     background-color: #195c91;
     display: none;
-    width: 30%;
+    width: 50%;
     right: 0;
-    padding: 0;
 }
 
 /* Drop down contents appear when user moves over them */
@@ -98,11 +100,14 @@ li{
 /* Sets the drop down contents to the center and arranged as a block */
 #contents ul li ul li{
     text-align: center;
+    text-decoration: none;
+    padding: 12px 16px;
     display: block;
 }
 
 /* The text changes to a light blue colour when user is moves over the contents in the drop down list */
 #contents ul li a:hover{
+    padding: 12px 16px;
     color: #84c3f7;
 }
 
@@ -111,17 +116,17 @@ li{
     float: right;
 }
 
-/* Lists are set to displaying vertically */
+/* Lists are set to position the dropdown contents vertically */
 #contents ul li{
     display: inline;
+    position: static;
 }
 
 /* Setting the drop down list link colours, size and distance. */
 #contents ul a{
     color: #ffffff;
-    font-size: 18px;
     text-decoration: none; /* removes the hyperlink blue background to none */
-    padding: 15px 15px;
+    padding: 12px 16px;
 }
 
 /* History Section */
@@ -193,6 +198,7 @@ li{
 #video{
     float: right;
     background-image: url("http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/css/460x320-box.png");
+    background-repeat: no-repeat;
     margin-left: 5px;
     margin-right: 10px;
     padding: 10px;
