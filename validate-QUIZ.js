@@ -4,7 +4,7 @@ function validate() {
 var userName = document.forms[0].username.value;
 var usernameError = "Please enter a correct syntax name \n";
 var question1 = document.forms[0].Question1.value;
-var score = 0;
+var score; 
 
 var error=[];
 var question1Error = "Please answer the first question \n";
@@ -23,6 +23,7 @@ var question3 = document.forms[0].Question3.value;
 var question4 = document.forms[0].Question4.value;
 var question4Answer = "british, australian & new zealand sign language";
 
+score = 0;
 
 /* Error check for null username */
 if(userName == ""){
