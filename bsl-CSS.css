@@ -265,7 +265,7 @@ li{
     border-top: 1px solid black;
 } 
 
-/* Setting the header 'numbers' and 'letters' to red  */
+/* Setting the header 'numbers' and 'letters' to red. Where span tag was used in the html to color the part of the text  */
 .red{
     color: #ff0000;
     display: inline;
