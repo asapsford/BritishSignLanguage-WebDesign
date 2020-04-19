@@ -46,12 +46,13 @@ li{
 /* Setting the borders for the questions*/
 fieldset{
     border: 10px;
-    border: 3px #195c91 double;
+    border: 5px #195c91 ;
+    border-style: groove;
 }
 
-/* Positions the help answer link to the right */
+/* Positions the help answer link to the right of the text */
 #help{
     text-align: right;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     padding-right: 10px;
 }
