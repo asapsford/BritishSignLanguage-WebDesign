@@ -25,7 +25,7 @@ var question4Answer = "british, australian & new zealand sign language";
 
 
 /* Error check for null username */
-if(userName == "" || /^\s*$/.test(userName)){
+if(userName == ""){
     error.push(usernameError);
     document.getElementById("username").style.backgroundColor = "yellow";
 }
@@ -73,7 +73,7 @@ else if(question3 ==""){
 if (question4.toLowerCase() == question4Answer){
     score++;
 }
-else if(question4 == "" || /^\s*$/.test(question4)){
+else if(question4 == ""){
     error.push(quesiton4Error);
     document.getElementById("Question4").style.backgroundColor = "yellow";
 }
