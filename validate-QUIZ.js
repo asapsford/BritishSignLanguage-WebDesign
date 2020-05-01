@@ -95,7 +95,7 @@ else if(question4 == ""){
     document.getElementById("Q4").style.backgroundColor = "yellow";
 }
 
-/* Display alert of score to the user */
+/* Display alert of score out of 5 to the user if no error messages are present and sets the yellow background to null */
 if(error.length === 0){
     document.forms[0].thisScore.value = score;
     document.getElementById("Q1").style.backgroundColor = null;
