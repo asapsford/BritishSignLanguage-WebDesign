@@ -103,7 +103,7 @@ if(error.length === 0){
     document.getElementById("Q3").style.backgroundColor = null;
     document.getElementById("Q4").style.backgroundColor = null;
 
-    alert("Congratulations! Your score is: " + score);
+    alert("Congratulations! Your score is: " + score + "(out of 5)");
 }
 else{
     alert(error);
