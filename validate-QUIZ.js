@@ -1,7 +1,7 @@
 
 function validate() {
  
-// Reference for JavaScript: https://www.w3schools.com/js/js_htmldom_document.asp
+/* Reference for JavaScript: https://www.w3schools.com/js/js_htmldom_document.asp */
 
 var userName = document.forms[0].UserInfo.value;
 var usernameError = "* Please enter a correct syntax name * \n";
