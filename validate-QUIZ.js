@@ -3,6 +3,7 @@ function validate() {
  
 /* Reference for JavaScript: https://www.w3schools.com/js/js_htmldom_document.asp */
 
+/* Declaring variables for the questions */
 var userName = document.forms[0].UserInfo.value;
 var usernameError = "* Please enter a correct syntax name * \n";
 var question1 = document.forms[0].Q1.value;
@@ -10,7 +11,7 @@ var score;
 
 var error=[];
 var question1Error = "* Please answer the first question * \n";
-var question2Error = "* Question 2 answer requires 2 boxes to be checked * \n";
+var question2Error = "* Question 2 answer requires 2 boxes to be chosen * \n";
 var question3Error= "* Please answer the third question * \n";
 var question4Error= "* Please answer the fourth question * \n";
 
@@ -42,11 +43,11 @@ if(question1 == "c"){
 }
 else if (question1 == ""){
 error.push(question1Error);
-document.getElementById("Q1").style.backgroundColor = "yellow";
+document.getElementById("Q1").style.backgroundColor = "yellow"; // highlights the question background in yellow if left unanswered
 }
 
 /* Question 2*/
-/* Loops through the answers to question 2, checks if it is the correct answers (n=2) and updates thte score if correct (a+c)*/
+/* Loops through the answers to question 2, checks if it is the correct answers (n=2) and updates the score if correct (a+c) */
 
 question2 = [question2a, question2b, question2c, question2d]; // array to hold the question answers to loop through them to check if they are correct
 for(var i=0; i<question2.length; i++){
