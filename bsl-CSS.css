@@ -271,29 +271,18 @@ li{
     display: inline;
 }
 
-/* Sets the letter images in a box */
-.lettersigns{
+/* Sets the images in a box */
+.signs{
     margin: 10px;
     max-width: 960px;
     display: inline-block;
 }
 
-/* Setting the font size for the letter images within the boxes */
-.lettersigns p span{
-font-size: 12px;
-}
-
-/* Sets the number images in a box */
-.numbersigns{
-    margin: 10px;
-    max-width: 960px;
-    display: inline-block;
-}
-
-/* Setting the font size for the number images within the boxes */
-.numbersigns p span{
+/* Setting the font size for the images within the boxes */
+.signs p span{
 font-size: 70%;
 }
+
 /* Setting the link text to the right at the bottom of the web page */
 #wikipedia{
     font-size: 12px;
