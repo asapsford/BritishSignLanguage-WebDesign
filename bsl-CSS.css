@@ -301,3 +301,8 @@ font-size: 70%;
     padding-bottom: 5px;
     padding-right: 10px; 
 }
+
+/* Adding the 'hr' using a border at the bottom of the letters to divide the section from the number signs section */ 
+#letters{
+    border-bottom: 10px solid #195c91;
+}
