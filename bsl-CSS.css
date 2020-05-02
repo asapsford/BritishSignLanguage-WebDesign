@@ -178,7 +178,7 @@ li{
 /* Sets the figure legend under the map 
    Adds a line border beneath it to separate it */
 .figurelegend{
-   float: center;
+   float: none;
    text-align: center;
     border-bottom: 2px solid #195c91;
 }
