@@ -20,15 +20,15 @@ var question2a = document.getElementById("Q2a").checked;
 var question2b = document.getElementById("Q2b").checked;
 var question2c = document.getElementById("Q2c").checked;
 var question2d = document.getElementById("Q2d").checked;
-var question2Answer = 0;
+var question2Answer = 0; // to count the number of answers to Q2
 
 var question3 = document.forms[0].Q3.value;
 
 var question4 = document.forms[0].Q4.value;
 var question4Answer = "british, australian & new zealand sign language";
-var question4AltAnswer="british, australian and new zealand sign language";
+var question4AltAnswer="british, australian and new zealand sign language"; // to allow the correct answer if the user writes 'and' 
 
-score = 0;
+score = 0; // initialising score to 0 before any questions are answered
 
 /* Error check for null username */
 if(userName == ""){
@@ -105,6 +105,7 @@ if(error.length === 0){
     document.getElementById("Q4").style.backgroundColor = null;
 
     alert("Congratulations! Your score is: " + score + "(out of 5)");
+    alert("Your answers and score will now be sent to the server");
 }
 else{
     alert(error);
