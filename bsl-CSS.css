@@ -272,17 +272,28 @@ li{
 }
 
 /* Sets the images in a box */
-.signs{
+.lettersigns{
     margin: 10px;
     max-width: 960px;
     display: inline-block;
 }
 
 /* Setting the font size for the images within the boxes */
-.signs p span{
-font-size: 12px;
+.lettersigns p span{
+font-size: 70%;
 }
 
+/* Sets the images in a box */
+.numbersigns{
+    margin: 10px;
+    max-width: 960px;
+    display: inline-block;
+}
+
+/* Setting the font size for the images within the boxes */
+.numbersigns p span{
+font-size: 70%;
+}
 /* Setting the link text to the right at the bottom of the web page */
 #wikipedia{
     font-size: 12px;
