@@ -104,8 +104,9 @@ if(error.length === 0){
     document.getElementById("Q4").style.backgroundColor = null;
 
     alert("Congratulations! Your score is: " + score + "(out of 5)");
-    alert("Your answers and score will now be sent to the server");
+    alert("Thankyou for completing the Quiz! Your answers and score will now be sent to the server");
 }
+
 else{
     alert(error);
     return false;
