@@ -15,11 +15,12 @@ var question2Error = "* Question 2 answer requires 2 boxes to be chosen * \n";
 var question3Error= "* Please answer the third question * \n";
 var question4Error= "* Please answer the fourth question * \n";
 
-var question2 = new Array();
+
 var question2a = document.getElementById("Q2a").checked;
 var question2b = document.getElementById("Q2b").checked;
 var question2c = document.getElementById("Q2c").checked;
 var question2d = document.getElementById("Q2d").checked;
+var question2 = [question2a, question2b, question2c, question2d];  // array to hold the question answers to loop through them to check if they are correct
 var question2Answer = 0; // to count the number of answers to Q2
 
 var question3 = document.forms[0].Q3.value;
@@ -48,8 +49,6 @@ document.getElementById("Q1").style.backgroundColor = "yellow"; // highlights th
 
 /* Question 2*/
 /* Loops through the answers to question 2, checks if it is the correct answers (n=2) and updates the score if correct (a+c) */
-
-question2 = [question2a, question2b, question2c, question2d]; // array to hold the question answers to loop through them to check if they are correct
 for(var i=0; i<question2.length; i++){
 
     if(question2[i] == true){
@@ -67,7 +66,7 @@ else if(question2a == true ) {
     }
 } 
 else if(question2c == true){
-    score++
+    score++;
     if(question2a == true) {
         score++;
     }
