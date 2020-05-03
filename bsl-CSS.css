@@ -26,7 +26,7 @@ h1{
     background-image: url("http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8004/css/sign_language.png");
     background-repeat: no-repeat;
     background-position: 97% 95%;
-    border-bottom: 10px solid #196c91;
+    border-bottom: 10px solid #195c91;
     display: flex;
     justify-content: left;
 }
