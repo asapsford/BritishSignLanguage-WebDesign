@@ -222,10 +222,9 @@ li{
 
 /* Styling the letter paragraphs */
 #letters p{
-    margin-left: 10px;
     margin-top: 0px;
-    font-size: 14px;
-    padding: 5px;
+    font-size: 12px;
+    padding: 3px;
     background-color: #195c91;
     color: #ffffff;
     text-align: center;
@@ -233,21 +232,19 @@ li{
 
 /* Styling the letter sign images into the correct format and position and adding black single line borders to the images */
 #letters img{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
     height: 100px;
     width: 100px;
     display: block;
-    margin-left: 10px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-top: 1px solid black;
 }
 
 /* Styling the numbers paragraph */  
 #numbers p{
-    margin-left: 10px;
     margin-top: 0px;
-    font-size: 14px;
-    padding: 5px;
+    font-size: 12px;
+    padding: 3px;
     background-color: #195c91;
     color: #ffffff;
     text-align: center;
@@ -256,13 +253,12 @@ li{
 
 /* Styling the number sign images into the correct format and position and adding black singleline borders to the images */
 #numbers img{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
     height: 100px;
     width: 100px;
     display: block;
-    margin-left: 10px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-top: 1px solid black;
 } 
 
 /* Setting the header 'numbers' and 'letters' to red. Where span tag was used in the html to color the part of the text  */
